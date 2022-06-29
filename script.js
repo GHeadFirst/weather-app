@@ -6,7 +6,7 @@ let units;
 // city = "Denver";
 units = "metric";
 let weather = {
-  apiKey: "fea089d984c6e8bd57973ca7c8dc4ec9",
+  apiKey: "",
   fetchGeo() {
     fetch(
       `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${this.apiKey}`
